@@ -2,8 +2,37 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 
-const products = [
-  { id: 1, image: "dysprosium.jpg", name: { pl: "Tlenek Dysprozu", en: "Dysprosium Oxide", de: "Dysprosiumoxid" }, pricePerGram: { PLN: 2.4, USD: 0.6, EUR: 0.56 } },
+const products = const products = [
+  {
+    id: 1,
+    image: "dysprosium.jpg",
+    name: { pl: "Tlenek Dysprozu", en: "Dysprosium Oxide", de: "Dysprosiumoxid" },
+    pricePerGram: { PLN: 2.4, USD: 0.6, EUR: 0.56 }
+  },
+  {
+    id: 2,
+    image: "holmium.jpg",
+    name: { pl: "Tlenek Holmu", en: "Holmium Oxide", de: "Holmiumoxid" },
+    pricePerGram: { PLN: 2.2, USD: 0.55, EUR: 0.52 }
+  },
+  {
+    id: 3,
+    image: "erbium.jpg",
+    name: { pl: "Tlenek Erbu", en: "Erbium Oxide", de: "Erbiumoxid" },
+    pricePerGram: { PLN: 1.9, USD: 0.48, EUR: 0.46 }
+  },
+  {
+    id: 4,
+    image: "rubidium.jpg",
+    name: { pl: "Rubid w Ag", en: "Rubidium in Ag", de: "Rubidium in Ag" },
+    pricePerGram: { PLN: 4.8, USD: 1.2, EUR: 1.15 }
+  },
+  {
+    id: 5,
+    image: "terbium.jpg",
+    name: { pl: "Tlenek Terbu", en: "Terbium Oxide", de: "Terbiumoxid" },
+    pricePerGram: { PLN: 3.1, USD: 0.78, EUR: 0.74 }
+  }
 ];
 
 export default function App() {
