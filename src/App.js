@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 
-const products = const products = [
+export const products = [
   {
     id: 1,
     image: "dysprosium.jpg",
